@@ -163,7 +163,7 @@ header{
 
 #div_3{
     width: 90%;
-    height: 300px;
+    height: auto;
     /* border: 1px solid black; */
     margin: auto;
 }
@@ -181,7 +181,8 @@ header{
     /* border: 1px solid green; */
     width: 65%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 #div_nav > ul{
     display: flex;
@@ -194,13 +195,17 @@ header{
 #main{
     display: flex;
     /* border: 1px solid red; */
-    margin-top: 120px;
+    /* margin-top: 100px; */
+    width: 85%;
+    height: auto;
+    margin: auto;
 }
 
 #image{
-    margin-top: 25px;
-    width: 70%;
+    margin-top: 35px;
+    width: 80%;
     /* border: 1px solid black; */
+    height: auto;
 }
 #image > img{
     width: 100%;
@@ -215,13 +220,13 @@ header{
 .symbol > p{
     margin-top: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .symbol + div{
-    width: 65%;
+    width: 89%;
     margin-left: 8%;
     line-height: 25.6px;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     margin-top: -8px;
 
@@ -231,5 +236,284 @@ header{
     width: 90%;
     height: auto;
     margin-top: 29px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+#div_4{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+#bottom{
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+#div_4>div:nth-child(1){
+    text-align: center;
+    font-size: 41px;
+    font-weight: bolder;
+    width: 58%;
+    margin: auto;
+    margin-top: 30px;
+    color: #0b3558;
+}
+#bottom > div:nth-child(1){
+    width: 50%;
+}
+#bottom > div:nth-child(1) > p:nth-child(1){
+    font-size: 39px;
+    line-height: 53.06px;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 80%;
+    color: #0b3558;
+}
+#bottom > div:nth-child(1) > p:nth-child(2){
+    width: 80%;
+    font-size: 18px;
+    line-height: 30.8571px;
+    margin-top: 40px;
+}
+#bottom > div:nth-child(1) > p:nth-child(3){
+    font-size: 18px;
+    font-weight: bold;
+    color: #006bff;
+    margin-top: 35px;
+}
+#bottom > div:nth-child(2){
+    width: 50%;
+}
+
+#bottom > div:nth-child(2) > img{
+    width: 100%;
+}
+ #div_5{
+    background-color: #f7faff;
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+ }
+ #div_5 >div:nth-child(1){
+    width: 45%;
+    border: 1ps solid red;
+ }
+ #div_5 >div:nth-child(1)>img{
+    width: 90%;
+    padding-left: 60px;
+ }
+
+ #div_5 >div:nth-child(2){
+    width: 48%;
+    /* border: 1px solid blue; */
+    margin-right: 30px;
+ }
+
+ #div_5 >div:nth-child(2) > p:nth-child(1){
+    font-size: 28px;
+    line-height: 39px;
+    width: 75%;
+    /* margin: auto; */
+    margin-top: 20px;
+    text-align: left;
+ }
+ #div_5 >div:nth-child(2) >img{
+    margin-top: 30px;
+    height: 40px;
+
+ }
+ #div_5 >div:nth-child(2) >img+p{
+    font-size: 24px;
+    margin-top: 20px;
+ }
+ #div_5 >div:nth-child(2) >img+p+p{
+    font-size: 14px;
+ }
+
+ #div_5 >div:nth-child(2) >img+p+p+p{
+    color: blue;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ #div_6{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+ }
+ #div_6>p{
+    width: 65%;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #0b3558;
+ }
+
+ #div_6_bottom {
+    display: flex;
+    /* border: 1px solid blue; */
+    margin-top: 30px;   
+    /* justify-content: space-between; */
+    gap: 30px;
+
+
+ }
+ #div_6_bottom >div:nth-child(1){
+    /* border: 1px solid red; */
+    width: 70%;
+    margin-top: 28px;
+ }
+ #div_6_bottom >div:nth-child(1) > img{
+    width: 100%;
+ }
+ #div_6_bottom >div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid teal; */
+    gap: 43px;
+    width: 22%;
+    margin-top: 36px;
+ }
+ #div_6_bottom >div:nth-child(2)>div{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    color: gray;
+ }
+#div_7{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+
+}
+#div_7>div:nth-child(1){
+
+    width: 35%;  
+    background-color: #f7faff;
+    margin-top: 50px;
+}
+#div_7>div:nth-child(1)>p:nth-child(1){
+    font-size: 50px;
+    margin-top: 80px;
+    font-weight: bold;
+    text-align: left;
+}
+#div_7>div:nth-child(1)>p:nth-child(2){
+    font-size: 18px;
+    margin-top: 30px;
+}
+#div_7>div:nth-child(1) > button{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #006bff ;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+#div_7>div:nth-child(2){
+    width: 60%;
+    /* border: 1px solid yellow; */
+    /* background-color: #e1f2ff; */
+}
+#div_7>div:nth-child(2)>img{
+    width: 80%;
+    margin: 90px 0px 50px 40px;
+}
+#div_8{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+}
+#div_8>div:nth-child(1){
+    margin-top: 20px;
+    width: 60%;
+}
+#div_8>div:nth-child(1) > img{
+    width: 90%;
+}
+#div_8>div:nth-child(2){
+    /* border: 1px solid black; */
+    width: 40%;
+
+}
+
+#div_8>div:nth-child(2)>div:nth-child(1)>p{
+    font-size: 39px;
+    font-weight: bold;
+    line-height: 53px;
+
+}
+.content>p:nth-child(odd){
+    /* background-color: #006bff; */
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+.content>p:nth-child(even){
+    font-size: 18px;
+}
+#flex{
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    /* background-color: #006bff; */
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    gap: 12px;
+}
+.fa-solid {
+    color: blue;
+    font-weight: 200;
+}
+#signup{
+    width: 99%;
+    margin: auto;
+    border: 1px solid white;
+    text-align: center;
+    background-color: #f7faff;
+    margin-top: 70px;
+}
+#signup > div{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+div > h2{
+    margin-top: 90px;
+    font-size: 50px;
+}
+#signup > div > span {
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+#signup > div > span:nth-child(1){
+    background-color: #006bff;
+    color: white;
+    border: none;
+}
+
+#signup > div > span:nth-child(2){
+    border: 1px solid blue;
+    color: blue;
+    background-color:#f7faff;
 }
