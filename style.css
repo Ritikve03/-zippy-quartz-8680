@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: "Gilroy", '-apple-system', "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 html, body{
@@ -163,13 +164,13 @@ header{
 #div_3{
     width: 90%;
     height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
 }
 #div_3 > p{
     width: 61%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     font-size: 43px;
     font-weight: bolder;
@@ -177,7 +178,7 @@ header{
     padding-bottom: 40px;
 }
 #div_nav{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 65%;
     margin: auto;
     margin-top: 40px;
@@ -192,15 +193,14 @@ header{
 }
 #main{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 120px;
-    /* justify-content: space-between; */
-    /* gap: 20px; */
 }
 
 #image{
-    width: 65%;
-    border: 1px solid black;
+    margin-top: 25px;
+    width: 70%;
+    /* border: 1px solid black; */
 }
 #image > img{
     width: 100%;
@@ -218,18 +218,18 @@ header{
     font-size: 20px;
 }
 .symbol + div{
-    width: 70%;
-    margin-left: 13%;
-    line-height: 30px;
+    width: 65%;
+    margin-left: 8%;
+    line-height: 25.6px;
     font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -8px;
 
 }
 #main_right{
-    border: 1px solid teal;
-    width: 80%;
+    /* border: 1px solid teal; */
+    width: 90%;
     height: auto;
-    padding: bottom 65px ;
-}
-#image{
-
+    margin-top: 29px;
+    padding-bottom: 50px;
 }
