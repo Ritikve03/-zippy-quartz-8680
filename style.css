@@ -189,8 +189,47 @@ header{
     font-size: large;
     font-weight: bold;
     padding: 8px 0px;
-
-
+}
+#main{
+    display: flex;
+    border: 1px solid red;
+    margin-top: 120px;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
 }
 
+#image{
+    width: 65%;
+    border: 1px solid black;
+}
+#image > img{
+    width: 100%;
+}
+.symbol{
+    display: flex;
+    gap: 12px;
+}
+.symbol > img{
+    padding: 10px;
+}
+.symbol > p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.symbol + div{
+    width: 70%;
+    margin-left: 13%;
+    line-height: 30px;
+    font-size: 20px;
 
+}
+#main_right{
+    border: 1px solid teal;
+    width: 80%;
+    height: auto;
+    padding: bottom 65px ;
+}
+#image{
+
+}
