@@ -517,3 +517,85 @@ div > h2{
     color: blue;
     background-color:#f7faff;
 }
+#mainFooter{
+    width: 99%;
+    /* border:1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px 10px 30px;
+}
+#leftFooter{
+    /* margin-top: -5px; */
+    width: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+#h2{
+    width: 20%;
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+#h2  span{
+    color: blue;
+}
+
+#leftFooter > div > p{
+    margin-top: -25px;
+    font-size: 18px;
+    line-height: 31px;
+    /* margin-bottom: 40px; */
+}
+#lang{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+}
+#img{
+    /* border: 1px solid yellow; */
+    width: 90%;
+    margin-top: 40px;
+
+
+}
+#img > img {
+    width: 100%;
+}
+#font{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+#font > i{
+    font-size: 22px;
+}
+#rightFooter{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,300px);
+    /* border: 1px solid black; */
+    width: 60%;
+    height: auto;
+    gap: 0px 10px;
+    color: gray;
+}
+#rightFooter >div{
+    font-size: 18px;
+    /* border: 1px solid red; */
+    /* gap: 1px; */
+    height: auto;
+    padding-left: 20px;
+}
+
+#rightFooter > div p{
+    margin-bottom: 20px;
+}
