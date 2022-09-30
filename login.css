@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Gilroy", '-apple-system', "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    border: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+nav > img{
+    width: 13%;
+    padding: 30px;
+    padding-left: 30px;
+}
+#top{
+    margin-top: 170px;
+    margin-left: 70px;
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#top div:nth-child(1){
+    width: 50%;
+    border: 1px solid red;
+}
+#top div >p:nth-child(1){
+    /* border: 1px solid teal; */
+    font-size: 75px;
+    font-weight: bolder;
+}
+#top div >p:nth-child(1) span{
+    color: #006bff;
+}
+#top div >p:nth-child(2){
+    /* border: 1px solid yellowgreen; */
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 28px;
+    color: gray;
+}
+#top > div > input{
+    display: inline;
+    width: 46%;
+    padding: 20px 80px 20px 38px;
+    margin-top: 15px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#top > div > button{
+    padding: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#006bff;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+h5{
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 17px;
+    /* border: 1px solid black; */
+}
+#top > div > button +p{
+    /* background-color: #006bff; */
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#top > div > button +p span{
+    color: #006bff;
+}
+#top > div + div{
+    width: 55%;
+    margin-top: 30px;
+   background-image: url(https://images.ctfassets.net/k0lk9kiuza3o/59iAyVjqqMENsNFL0v6bl2/07024e4c1f4013d7cf49de86e70e16b5/Bg-Shape.svg) ;width: 70%;
+}
