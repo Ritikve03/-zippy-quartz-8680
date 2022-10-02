@@ -22,8 +22,8 @@
                 </ul>
             </div>
             <div id="right">
-                <p>Log In</p>
-                <button>Get started</button>
+                <a style="text-decoration:none ;" href="log-in.html"><p>Log In</p></a> 
+                <a style="text-decoration:none ;" href="sign up.html"><button>Get started</button></a>
                 
             </div>
         </nav>
@@ -79,15 +79,49 @@
         <div>
             <form action="">
                 <div id="flex">
-                    <div>
+                    <div style="display:inline;">
                         <label for="firstname">First Name</label><br>
-                        <input type="text" id="firstname"><br>
+                        <input type="text" id="firstname" placeholder="Enter Your first Name"><br>
                     </div>
-                    <div>
+                    <div style="display:inline;">
                         <label for="lastname">Last Name</label><br>
-                        <input type="text" id="lastname"><br>
+                        <input type="text" id="lastname" placeholder="Enter Your second Name"><br>
                     </div>
                 </div>
+                <label for="email">Work Email</label><br>
+                <input type="email"  id="email" placeholder="email@example.com"><br>
+                <label for="Phone Number">Phone Number</label><br>
+                <input type="number"  id="Phone Number" placeholder="(555)555-5555"><br>
+                <label for="Department">Department</label><br>
+                <select name="Department"  id="Department" placeholder="Select a Department">
+                    <option value="Select a Department">Select a Department</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Support">Support</option>
+                    <option value="Customer Success">Customer Success</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="HR/Recruiting">HR/Recruiting</option>
+                    <option value="Product Management">Product Management</option>
+                    <option value="IT"></option>
+                </select> <br>
+                <label for="Role">Role</label><br>
+                <select  id="Role">
+                    <option value="Select a Role">Select a Role</option>
+                    <option value="CEO">CEO</option>
+                    <option value="VP">VP</option>
+                    <option value="Director">Director</option>
+                    <option value="Manager">Manager</option>
+                    <option value="Contributor">Contributor</option>
+                </select><br>
+                <label for="help">How can Our Sales Team Help You ?</label><br>
+                <select name="How Can Our Sales Team Help You?" id="help">
+                    <option value="Select a reason">Select a reason</option>
+                    <option value="I have a product question">I have a product question</option>
+                    <option value="I want to evaluate Calendly for my organization">I want to evaluate Calendly for my organization</option>
+                    <option value="I want to know which plan is right for me">I want to know which plan is right for me</option>
+                    <option value="I want to buy licenses or upgrade">I want to buy licenses or upgrade</option>
+                    <option value="I want to buy the Enterprise Plan (30 seat min)">I want to buy the Enterprise Plan (30 seat min)</option>
+                </select><br>
+
             </form>
         </div>
 

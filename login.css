@@ -31,14 +31,14 @@ nav > img{
     margin-left: 70px;
     width: 90%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 180px;
 }
 #top div:nth-child(1){
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #top div >p:nth-child(1){
     /* border: 1px solid teal; */
@@ -61,7 +61,7 @@ nav > img{
     padding: 20px 80px 20px 38px;
     margin-top: 15px;
     font-size: 18px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-radius: 5px;
 }
 #top > div > button{
@@ -91,9 +91,15 @@ h5{
     color: #006bff;
 }
 #top > div + div{
-    width: 55%;
+    z-index: -3;
+    width: 45%;
     margin-top: 30px;
-    background-image: url(https://images.ctfassets.net/k0lk9kiuza3o/59iAyVjqqMENsNFL0v6bl2/07024e4c1f4013d7cf49de86e70e16b5/Bg-Shape.svg) ;;
+    background-image: url(https://images.ctfassets.net/k0lk9kiuza3o/59iAyVjqqMENsNFL0v6bl2/07024e4c1f4013d7cf49de86e70e16b5/Bg-Shape.svg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid red; */
+    background-position: right;
+    
 }
 #mainFooter{
     width: 99%;
@@ -133,7 +139,7 @@ h5{
     margin-bottom: 12px;
     font-size: 15px;
     border-radius: 5px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     font-weight: bold;
 }
 #img{
@@ -176,4 +182,30 @@ h5{
 
 #rightFooter > div p{
     margin-bottom: 20px;
+}
+#intro{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 170%;
+    z-index: 6;
+    background-color: white;
+}
+#intro>h4{
+    color: blue;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+#intro>H2{
+    color: #0b3558;
+    font-size: 38px;
+    line-height: 53.06px;
+    margin-left: 24px;
+    margin-top: 40px;
+}
+#intr>p{
+    color: #476788;
+    font-size: 18px;
+    line-height: 28.9px;
 }

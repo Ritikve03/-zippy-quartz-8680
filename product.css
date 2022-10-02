@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Gilroy", '-apple-system', "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#promain{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    z-index: 3;
+    position: fixed;
+    background-color: white;
+    top: 12%;
+    right: 5%;
+    visibility: hidden;
+}
+#pro:hover #promain{
+    visibility: visible;
+}
+#resmain{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    z-index: 3;
+    position: fixed;
+    background-color: white;
+    top: 12%;
+    right: 5%;
+    visibility: hidden;
+}
+#res:hover #resmain{
+    visibility: visible;
+}
+
+#proleft {
+    width: 40%;
+    height: auto;
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    margin-right: 25px;
+    background-color: rgb(231, 237, 246);
+}
+#proleft >h3{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 45px;
+}
+#proleft >p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d344b;
+    margin-top: 20px;
+    width: 80%;
+   
+}
+#protop{
+    display: flex;
+    flex-direction: column;
+}
+#probot{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-right: 20px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+i{
+    margin-left: 25px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 20px;
+    /* background-color: #1d344b; */
+}
+#probot h4{
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 8px;
+    color: black;
+
+}
+
+#probot p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 70%;
+    color: #1d344b;
+    margin-bottom: 17px;
+}
+.h4{
+   padding-bottom: 20px;
+   color: black;
+}

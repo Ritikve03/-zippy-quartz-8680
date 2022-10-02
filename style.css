@@ -8,6 +8,22 @@ html, body{
     height: 100%;
     width: 100%;
 }
+ul{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+ul > li{
+    border: 1px solid white;
+}
+ul > li:hover{
+    color: #006bff;
+    cursor: pointer;
+}
+#pro,#res{
+    padding-bottom: 22px;
+
+}
 header{
     position: fixed;
     top: 0;
@@ -23,23 +39,32 @@ header{
     justify-content: space-between;
 
 }
-
+#right >p:hover{
+    color: #006bff;
+    cursor: pointer;
+}
+#right >a>button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
 #left{
-    width: 72%;
+    width: 80%;
     display: flex;
     /* border: 1px solid teal; */
     justify-content: space-between;
     align-items: center;
+    gap: 80px;
 }
 
 #left > img {
-    width: 20%;
-    height: 87%;
+    width: 15%;
+    height: 60%;
+    margin-left: 60px;
 
 
 }
 #left > ul{
-    width: 70%;
+    width: 80%;
     display: flex;
     gap: 10px;
     /* border: 1px solid black; */
@@ -106,7 +131,8 @@ header{
     border: 1px solid lightgray;
     border-radius: 5px;
 }
-#top > div > button{
+
+#top > div > a> button{
     padding: 25px;
     font-weight: bold;
     border-radius: 10px;
@@ -114,6 +140,10 @@ header{
     color: white;
     border: none;
     margin-left: 10px;
+}
+#top > div >a> button:hover{
+    background-color: blue;
+    cursor: pointer;
 }
 #top > div > button+p{
     font-size: 16px;
@@ -497,7 +527,7 @@ div > h2{
     margin-top: 90px;
     font-size: 50px;
 }
-#signup > div > span {
+#signup > div > a>span {
     /* border: 1px solid red; */
     padding: 10px 20px;
     margin-top: 40px;
@@ -506,13 +536,13 @@ div > h2{
     margin-bottom: 90px;
 }
 
-#signup > div > span:nth-child(1){
+#signup > div > a>span:nth-child(1){
     background-color: #006bff;
     color: white;
     border: none;
 }
 
-#signup > div > span:nth-child(2){
+#signup > div > a>span:nth-child(1){
     border: 1px solid blue;
     color: blue;
     background-color:#f7faff;
